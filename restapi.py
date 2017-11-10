@@ -3,7 +3,7 @@ import urllib2, json
 
 api_app = Flask (__name__)
 
-u = urllib2.urlopen("http://api.nasa.gov/planetary/apod?api_key=S93VcKmv5nCKEmbxi3459T5wo5UkuOrwDdT3vghB")
+u = urllib2.urlopen("https://api.nasa.gov/planetary/apod?api_key=S93VcKmv5nCKEmbxi3459T5wo5UkuOrwDdT3vghB")
 not_dict = u.read()
 real_dict = json.loads(not_dict)
 
