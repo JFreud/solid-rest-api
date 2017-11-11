@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> NASA API </title>
+    <title> NASA/YOUTUBE API </title>
   </head>
   <body>
     Using NASA API, this is their apod.
     <img src = "{{url}}">
     <p> {{text}} </p>
+    <br> <br>
+    <p> Input one-word YouTube username (e.g. nigahiga, videogamedunkey, ThePianoGuys): </p>
+    <form action = "/subs">
+      <input type = "text" name = "handle">
+      <button type = "submit"> Submit </button>
+    </form>
   </body>
 </html>
